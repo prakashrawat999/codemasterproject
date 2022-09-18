@@ -1,0 +1,11 @@
+.logdiv{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #57dac7, #73e3b6, #98eba2, #bff08f, #eaf281);
+}
+
+#BOX{
+    border: 1px solid rgb(134, 131, 131);
+    border-radius: 30px;
+    box-shadow: 15px 25px 15px  rgba(89, 86, 86, 0.905);
+}

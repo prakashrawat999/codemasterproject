@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+body{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.modal-dialog{
+    text-transform: capitalize;
+    background-color: #131414;
+    color: #f8f8f8;
+}
+.close{
+    color: #fff;
+}
+
+.modal-content{
+background-color: #131414;
+}
+
+.modal-header{
+background-color: #131414;
+border: none;
+}
+
+.modal-body{
+    background-color: #131414;
+    border: none;
+}
+
+.modal-footer{
+    background-color: #131414;
+    border: none;
+}
+
+
+.roomsLink:hover{
+    color: #ffffff !important;
+}
+
+.roomsLink{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.roomsLink::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #f8f8f8;
+    transition: width 1s;
+}
+.roomsLink:hover::after{
+    width: 100%;
+    transition: width 1s;
+}
+
+
+.secont{
+    display: flex;
+    flex-direction: column;
+}
+.roombanner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35rem;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.roombanner h2{
+    font-family: 'Kalam', cursive;
+    color: rgb(255, 254, 254);
+    font-size: 45px;
+}
+
+.roombtn{
+    border-radius: 5px;
+    border: 1px solid rgb(232, 231, 231);
+    text-transform: uppercase;
+    font-size: 17px;
+    box-shadow: 15px 12px 15px #131414;
+    background: #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-family: 'Kalam', cursive;
+    display: inline-block;
+    margin-top: 30px;
+    color: rgb(3, 3, 3);
+}
+
+.roombtn:hover {
+    text-decoration: none;
+    background: #1f9215;
+    border-color: #1f9215;
+    color: rgb(255, 255, 255);
+}

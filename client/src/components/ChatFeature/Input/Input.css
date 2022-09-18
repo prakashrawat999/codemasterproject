@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+.input {
+  border: none;
+  padding: 1%;
+  padding-left: 5%;
+  width: 90%;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+  background-color: rgb(228, 235, 235);
+}
+
+#btn{
+  color: rgb(255, 252, 252);
+}

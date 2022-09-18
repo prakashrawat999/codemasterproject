@@ -1,0 +1,12 @@
+
+.sigdiv{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #bde0ec, #b7e5e5, #bbe8d7, #cbe8c6, #e2e5b9);
+}
+
+#box1{
+    border: 1px solid rgb(118, 117, 117);
+    border-radius: 30px;
+    box-shadow: 18px 30px 15px  rgb(72, 70, 70);
+}
